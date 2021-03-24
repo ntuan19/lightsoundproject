@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Tuan's Project!</h1>
+    <p>
+      Light and Sound Memory Game
+    </p>
+
+    <button type="button" class="btn btn-danger btn-lg" id="startBtn" onclick ="startGame()">
+      Start
+    </button>
+    <button class= "btn btn-info hidden btn-lg" id="stopBtn" onclick="stopGame()">
+      End
+    </button>
+    
+    <div id ="gameButtonArea">
+          <button id="button1" class="btn btn-success" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">Love</button>
+          <button id="button2" class="btn btn-info" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">Happiness</button>
+          <button id="button3" class="" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">Satisfaction</button>
+          <button id="button4" class="btn btn-warning" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">Determination</button>
+    </div>
+
+  </body>
+</html>
