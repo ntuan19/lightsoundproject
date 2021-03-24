@@ -6,7 +6,9 @@ Submitted by: **Tuan Nguyen**
 
 Time spent: **4** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (insert your link here, should start with https://rowan-legendary-metal.glitch.me/ )
+or :
+- https://glitch.com/~rowan-legendary-metal
 
 ## Required Functionality
 
