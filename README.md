@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
+![image](https://user-images.githubusercontent.com/61070900/112346429-4b26fb00-8d09-11eb-9e05-335149d8c681.gif)
 
 ## Reflection Questions
 
